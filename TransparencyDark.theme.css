@@ -515,10 +515,6 @@
     width: 28px;
 }
 
-.unread-3zKkbm {
-    display: none;
-}
-
 
 .theme-dark .tooltipBlack-PPG47z {
     background: rgba(0, 0, 0, 0.8)
@@ -609,10 +605,14 @@
 }
 
 .divider-32i8lo,
-.channelTextArea-rNsIhG,
+.channelTextArea-rNsIhG {
+    border: none;
+    margin-bottom: 30px;
+}
+
 .form-2fGMdU {
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 
@@ -1329,7 +1329,7 @@
 .membersGroup-v9BXpm,
 .container-2Pjhx-,
 .timestampCozy-2hLAPV {
-    color: white;
+    color: #ffffffcf;
 }
 
 .clickable-1JJAn8:hover .layout-2DM8Md {
