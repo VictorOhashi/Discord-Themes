@@ -933,6 +933,7 @@
     position: relative;
     overflow: hidden;
     animation: user-card-slide 15s cubic-bezier(0.43, 0.03, 0.4, 1) infinite;
+    background-image: var(--background-spotify-image);
 }
 
 .headerSpotify-zpWxgT:after {
