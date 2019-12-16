@@ -928,12 +928,13 @@
 
 .headerSpotify-zpWxgT,
 .headerXbox-3G-4PF {
+    background-image: var(--background-spotify-image);
     background-color: var(--spotify-color);
+    background-size: cover;
     background-repeat: repeat;
     position: relative;
     overflow: hidden;
     animation: user-card-slide 15s cubic-bezier(0.43, 0.03, 0.4, 1) infinite;
-    background-image: var(--background-spotify-image);
 }
 
 .headerSpotify-zpWxgT:after {
