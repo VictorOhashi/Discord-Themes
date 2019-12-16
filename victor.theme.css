@@ -1,0 +1,9 @@
+//META{"name":"TransparencyDark","description":"Discord theme","author":"VictorOhashi","version":"1.0.0"}*//{}
+
+:root {
+  --avatar-size: 55px;
+  --main-color: #414D73;
+  --channel-selector: linear-gradient(50deg, rgba(67, 79, 121, 0.8) 0%, rgba(45, 43, 54, 1) 90%);
+}
+
+@import "./main.css"
