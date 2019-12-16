@@ -833,6 +833,26 @@
     background-image: var(--user-card-background-image);
 }
 
+.headerPlaying-j0WQBV:after {
+    animation: shine 5s ease-in-out infinite;
+    animation-fill-mode: forwards;
+    content: "";
+    position: absolute;
+    top: -110%;
+    left: -210%;
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(to right,
+            rgba(255, 255, 255, 0.13) 0%,
+            rgba(255, 255, 255, 0.13) 77%,
+            rgba(255, 255, 255, 0.5) 92%,
+            rgba(255, 255, 255, 0.0) 100%);
+}
+
 .topSectionPlaying-1J5E4n {
     background: rgba(46, 77, 162, 0.5);
 }
