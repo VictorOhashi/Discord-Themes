@@ -3,7 +3,8 @@
 
 :root {
     --avatar-size: 55px;
-    --main-color: #414D73
+    --main-color: #414D73;
+    --channel-selector: linear-gradient(50deg, rgba(67, 79, 121, 0.8) 0%, rgba(45, 43, 54, 1) 90%);
 }
 
 @keyframes userSlide {
@@ -487,7 +488,7 @@
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
-    background: linear-gradient(50deg, rgba(67, 79, 121, 0.8) 0%, rgba(45, 43, 54, 1) 90%) !important;
+    background: var(--channel-selector) !important;
 }
 
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .actionIcon-2Hi9ZG,
@@ -547,7 +548,6 @@
 }
 
 .contextMenu-HLZMGh {
-    background: #282829;
     box-shadow: none;
     border-radius: 12px;
 }
@@ -1409,8 +1409,6 @@
 }
 
 .theme-dark .isMentioned-N-h9aa {
-    background: rgba(0, 140, 153, 0.276);
-    border: 2px solid rgba(0, 140, 153, 0.146);
     padding: 4px;
 }
 
