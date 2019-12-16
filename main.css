@@ -944,7 +944,7 @@
     background-image: url('https://i.imgur.com/CEIRHlH.png');
     background-color: var(--main-color);
     background-repeat: repeat;
-    animation: userSlide 15s cubic-bezier(0.43, 0.03, 0.4, 1) infinite;
+    animation: user-card-slide 15s cubic-bezier(0.43, 0.03, 0.4, 1) infinite;
 }
 
 .root-SR8cQa {
