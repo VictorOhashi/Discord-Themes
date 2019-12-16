@@ -1424,7 +1424,7 @@
 }
 
 .bd-toast.toast-success {
-    background-color: #154630;
+    background-color: #43b581;
     border: 2px solid black;
 }
 
@@ -1439,10 +1439,6 @@
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: none;
 }
-
-
-
-/* Emotes Code */
 
 #bda-qem-favourite-container .scroller::-webkit-scrollbar,
 #bda-qem-favourite-container .scroller::-webkit-scrollbar-track,
@@ -1537,10 +1533,6 @@
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
     border-bottom-color: black;
 }
-
-
-
-/* Discord and BetterDiscord Settings */
 
 .theme-dark .contentRegion-3nDuYy,
 .contentRegionScroller-26nc1e,
@@ -1823,11 +1815,6 @@
 .ace-monokai .ace_marker-layer .ace_active-line,
 .ace-monokai .ace_gutter-active-line {
     background: rgba(0, 140, 153, 0.57);
-}
-
-#bd-customcss-attach-controls .help-text .inline {
-    background: var(--main-color);
-    text-shadow: 0 0 12px, 0 0 12px, 0 0 12px;
 }
 
 .contentRegion-3nDuYy #bd-customcss-attach-controls,
