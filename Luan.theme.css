@@ -1,16 +1,22 @@
-//META{"name":"Luan-Theme","description":"Discord theme","author":"LuanNascimento","version":"1.0.0"}*//{}
+//META{"name":"Luan-Theme-MeninaJapão","description":"Discord theme","author":"LuanNascimento","version":"1.0.0"}*//{}
 
 @import url("https://victorohashi.github.io/Discord-Themes/main.css");
 
 :root {
   --avatar-size: 55px;
-  --main-color: #808080;
-  --secondary-color: #808080;
-  --terciary-color: #808080;
+  --main-color: #ff0000;
+  --secondary-color: #ff0000;
+  --terciary-color: #ff0000;
   --channel-selector: linear-gradient(50deg, rgba(80, 80, 80, 0.8) 0%, rgb(80, 80, 80) 90%);
-  --user-card-background-image: url('https://i.imgur.com/CEIRHlH.png');
+  --user-card-background-image: url('https://wallpaperplay.com/walls/full/1/4/b/15250.jpg');
   --background-image: linear-gradient(75deg,
       rgba(0, 0, 0, 0.8) 0%, rgba(80, 80, 80, 0.15) 70%), url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5c29e4c9-c2b7-4e9b-84ba-53a61c75dbc9/d987vme-57375566-c4dd-40fe-92b8-c1aa357c3e45.png/v1/fill/w_1000,h_500,strp/black_and_white_samurai_girl_by_johnnygatthird_d987vme-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTAwIiwicGF0aCI6IlwvZlwvNWMyOWU0YzktYzJiNy00ZTliLTg0YmEtNTNhNjFjNzVkYmM5XC9kOTg3dm1lLTU3Mzc1NTY2LWM0ZGQtNDBmZS05MmI4LWMxYWEzNTdjM2U0NS5wbmciLCJ3aWR0aCI6Ijw9MTAwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.jg5qZreo6Sn2poH5MZYlCSkwkFnOXpEXd1qjEgmVyB4);
+  --background-spotify-image: linear-gradient(360deg, rgba(0, 212, 0, 0.9) 0%, rgba(82, 82, 82, 0.15) 100%), url('https://lockpaperscissors.co/wp-content/uploads/spotify-theme-music-bkg-dark.png');
+  --gradient-shine: linear-gradient(to right,
+      transparent 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%);
 }
 
 @keyframes user-card-slide {
@@ -41,8 +47,12 @@
     transition-timing-function: ease;
   }
 
-  100% {
+  80% {
     opacity: 0;
+  }
+
+  100% {
+
     top: -30%;
     left: -30%;
     transition-property: left, top, opacity;
