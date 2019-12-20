@@ -1375,10 +1375,15 @@
 
 .markup-2BOw-j {
     color: white;
-    top: 3px;
+    margin: 0px !important;
     position: relative;
     text-shadow: 0 0 1px black, 0 0 20px black, 0 0 21px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     margin-left: calc(var(--avatar-size) + -39px);
+}
+
+.slateTextArea-1Mkdgw {
+    left: 0px !important;
+    right: 0px !important;
 }
 
 .placeholder-P6ptfj,
