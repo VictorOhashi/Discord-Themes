@@ -1392,7 +1392,9 @@
     color: white;
 }
 
+/* Left space chat text */
 .containerCozy-B4noqO>*,
+.containerCozy-336-Cz,
 .isMentionedCozy-3isp7y {
     margin-left: calc(var(--avatar-size) + -39px);
 }
