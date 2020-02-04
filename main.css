@@ -66,6 +66,10 @@
     overflow: visible;
 }
 
+.wrapper-2aW0bm {
+    background-color: var(--background-floating);
+}
+
 .guildSeparator-3s64Iy {
     background: transparent;
 }
@@ -582,6 +586,10 @@
     margin-bottom: 0px;
 }
 
+.form-2fGMdU:before {
+    display: none;
+}
+
 
 .topic-TCb_qw {
     color: white;
@@ -625,6 +633,12 @@
 
 .container-3ayLPN {
     border-radius: 13px;
+}
+
+.container-3FojY8,
+.container-1D34oG,
+.peopleList-3c4jOR {
+    background-color: transparent;
 }
 
 .theme-dark .option-96V44q:after,
@@ -1795,7 +1809,8 @@
 .theme-dark .nowPlaying-284llR .gameNameInput-385LoS:focus,
 .theme-dark .nowPlaying-284llR .gameNameInput-385LoS:hover,
 .theme-dark .gameNameInput-385LoS:focus,
-.theme-dark .gameNameInput-385LoS:hover {
+.theme-dark .gameNameInput-385LoS:hover,
+.nowPlayingColumn-2sl4cE {
     background-color: rgba(0, 0, 0, 0.33);
     border: none;
 }
