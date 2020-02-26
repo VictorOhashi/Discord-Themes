@@ -13,12 +13,11 @@
   --background-image: linear-gradient(75deg,
       rgba(0, 0, 0, 0.8) 0%, rgba(82, 82, 82, 0.15) 70%), url('https://i.imgur.com/VNmtmqd.jpg');
   --background-spotify-image: linear-gradient(360deg, rgba(0, 60, 0, 0.9) 0%, rgba(82, 82, 82, 0.15) 100%), url('https://cdn.discordapp.com/attachments/598308629891907626/656248558441201704/Type2.png');
-  --gradient-shine: linear-gradient(to right,
-      transparent 0%,
-      rgba(255, 255, 255, 0.13) 77%,
-      rgba(255, 255, 255, 0.5) 92%,
-      rgba(255, 255, 255, 0.0) 100%);
+  --gradient-shine: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.13) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0.0) 100%)
 }
+
+
+
 
 @keyframes user-card-slide {
   0% {
@@ -39,23 +38,11 @@
 }
 
 @keyframes shine {
-  10% {
-    opacity: 1;
-    top: -30%;
-    left: -30%;
-    transition-property: left, top, opacity;
-    transition-duration: 0.7s, 0.7s, 0.15s;
-    transition-timing-function: ease;
-  }
-
-  80% {
-    opacity: 0;
+  82% {
+    left: -100%
   }
 
   100% {
-
-    top: -30%;
-    left: -30%;
-    transition-property: left, top, opacity;
+    left: 150%
   }
 }
