@@ -1408,6 +1408,10 @@
     margin-left: calc(var(--avatar-size) + -39px);
 }
 
+.cozy-3raOZG .messageContent-2qWWxC {
+    padding-left: 0px
+}
+
 .isMentionedCozy-3isp7y .markup-2BOw-j {
     margin-left: -1px;
     top: unset;
