@@ -814,7 +814,8 @@
   background-color: transparent;
 }
 
-.scrollableContainer-2NUZem {
+.scrollableContainer-2NUZem,
+.channelTextArea-rNsIhG {
   background-color: rgba(0, 0, 0, 0.55);
 }
 
@@ -822,7 +823,8 @@
   background-color: rgba(255, 0, 0, 0.6);
 }
 
-.theme-dark .autocomplete-1vrmpx {
+.theme-dark .autocomplete-1vrmpx,
+.isUnread-3Ef-o9 {
   background-color: #262424;
 }
 
